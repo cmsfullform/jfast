@@ -14,10 +14,9 @@ Hàm khởi tạo và truy xuất các phần tử DOM. Có thể sử dụng d�
 // Ví dụ: Chạy khi DOM đã sẵn sàng
 $(document).ready(function() {
   console.log('DOM đã sẵn sàng!');
+  // Ví dụ: Truy xuất các phần tử có class "my-class"
+  let items = $('.my-class');
 });
-
-// Ví dụ: Truy xuất các phần tử có class "my-class"
-let items = $('.my-class');
 ```
 
 ---
