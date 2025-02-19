@@ -12,6 +12,16 @@ Hàm khởi tạo và truy xuất các phần tử DOM. Có thể sử dụng d�
 
 ```js
 // Ví dụ: Chạy khi DOM đã sẵn sàng
+document.addEventListener("DOMContentLoaded", function(event) {
+      /* 
+        - Code to execute when only the HTML document is loaded.
+        - This doesn't wait for stylesheets, images, and subframes to finish loading. 
+      */
+  console.log('DOM đã sẵn sàng!');
+  // Ví dụ: Truy xuất các phần tử có class "my-class"
+  let items = $('.my-class');
+});
+hoặc
 $(document).ready(function() {
   console.log('DOM đã sẵn sàng!');
   // Ví dụ: Truy xuất các phần tử có class "my-class"
