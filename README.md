@@ -1,4 +1,4 @@
-# jfast
+# jfast - CMS Full Form - JS Library replace jQuery (Super Fast)
 jFast (Like jQuery but Fast Forever)
 
 ## Các nhóm hàm chính
